@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Models;
+namespace App\Models\Website;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Category extends Model
+class MenusLocale extends Model
 {
     use HasFactory;
 }

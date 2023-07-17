@@ -12,7 +12,14 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('categories', function (Blueprint $table) {
-            $table->id();
+            $table->id()->autoIncrement();
+            $table->string('svg_icon',255)->nullable();
+            $table->string('alias',128)->nullable();
+            $table->integer('position');
+            $table->integer('parent_id')->nullable();
+            $table->integer('file_id')->nullable();
+            $table->integer('status_id');
+            $table->integer('main_page_status_id');
             $table->timestamps();
         });
     }

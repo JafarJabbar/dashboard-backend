@@ -11,8 +11,18 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('contents', function (Blueprint $table) {
-            $table->id();
+        Schema::create('content', function (Blueprint $table) {
+            $table->id()->autoIncrement();
+            $table->string('alias',128);
+            $table->integer('position');
+            $table->dateTime('date')->default(\Illuminate\Support\Facades\DB::raw('CURRENT_TIMESTAMP'));
+            $table->integer('file_id');
+            $table->integer('category_id');
+            $table->integer('type_id');
+            $table->integer('status_id');
+            $table->integer('main_page_status_id');
+            $table->integer('video_link');
+            $table->integer('external_link');
             $table->timestamps();
         });
     }
@@ -22,6 +32,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('contents');
+        Schema::dropIfExists('content');
     }
 };

@@ -19,11 +19,16 @@ class PermissionsSeeder extends Seeder
         $permissions->truncate();
         $contents=[
             'users',
+            'site_users',
             'news',
             'pages',
+            'categories',
+            'product_categories',
+            'products',
+            'product_attributes',
+            'orders',
             'page_blocks',
-            'events',
-            'events',
+            'settings',
             'roles',
             'access-logs',
             'action-logs',

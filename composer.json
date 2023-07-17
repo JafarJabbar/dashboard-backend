@@ -9,6 +9,7 @@
         "barryvdh/laravel-debugbar": "^3.8",
         "barryvdh/laravel-dompdf": "^2.0",
         "barryvdh/laravel-ide-helper": "^2.13",
+        "barryvdh/laravel-translation-manager": "^0.6.5",
         "beyondcode/laravel-websockets": "^1.14",
         "cviebrock/eloquent-sluggable": "^10.0",
         "guzzlehttp/guzzle": "^7.2",
