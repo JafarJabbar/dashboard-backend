@@ -22,6 +22,7 @@
         "laravel/tinker": "^2.8",
         "laravel/ui": "^4.2",
         "laravolt/avatar": "^5.0",
+        "livewire/livewire": "^2.12",
         "owen-it/laravel-auditing": "^13.5",
         "predis/predis": "^2.2",
         "rap2hpoutre/fast-excel": "^5.2",
