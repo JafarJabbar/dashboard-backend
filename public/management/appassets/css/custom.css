@@ -1,0 +1,63 @@
+.sortable {
+    position: absolute;
+    margin-left: 60px;
+    color: #6c757d;
+}
+
+.sortable-asc {
+    top: 15px;
+}
+
+.sortable.active {
+    color: #000000;
+}
+
+.sortable-desc {
+    top: 5px;
+}
+.main-menu-content{
+    height: 80vh !important;
+}
+.shadow-bottom{
+    display: none !important;
+}
+#dropdownMenuButton6 {
+    padding: .5rem .4rem;
+}
+
+.height38 input, .height38 select, .height38 button {
+    height: 38px !important;
+}
+
+.height38 select {
+    padding: .5rem 1rem;
+}
+
+.dropdown-menu[x-placement=bottom-start], .dropdown-menu[x-placement=bottom-end] {
+    z-index: 999 !important;
+}
+
+.dropdown .row > div {
+    padding-right: 0 !important;
+}
+
+.select2-selection__arrow b {
+    padding-right: unset !important;
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: start;
+    align-items: center
+}
+
+.action-buttons .dropdown-item:hover {
+    color: #7367F0;
+    background-color: unset;
+}
+
+.action-buttons .dropdown-item {
+    padding: 0;
+    cursor: pointer;
+}
+
