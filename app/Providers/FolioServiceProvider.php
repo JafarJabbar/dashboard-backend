@@ -20,7 +20,7 @@ class FolioServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        Folio::route(resource_path('views/management/pages'), middleware: [
+        Folio::route(resource_path('views/pages'), middleware: [
             '*' => [
                 'auth'
             ],

@@ -12988,7 +12988,11 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "laravel/folio": 10,
+        "livewire/livewire": 10,
+        "livewire/volt": 10
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {

@@ -13,10 +13,6 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "auth" middleware group.
 |
 */
-Auth::routes([
-    'verify'=>false,
-    'register'=>false,
-]);
 
 
 

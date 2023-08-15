@@ -1,8 +1,9 @@
 <?php
 
-use function Livewire\Volt\state;
+use function Livewire\Volt\{state};
 use App\Models\Content\Category;
-state(title: '', categories: fn () => Category::all());
+
+state(title: '', categories: fn() => Category::all());
 
 $addCategory = function () {
     Category::create(['title' => $this->title]);
@@ -10,7 +11,7 @@ $addCategory = function () {
     $this->title = '';
     $this->categories = Category::all();
 }; ?>
-@extends('management.layouts.app')
+@extends('layouts.app')
 @section('content')
     @volt
     <div>
